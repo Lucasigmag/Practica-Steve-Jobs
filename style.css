@@ -1,0 +1,54 @@
+body{
+ background-color: lightblue;
+}
+h1.mid{
+text-align: center;
+color: blue;
+}
+span.grande{
+    color: black;
+    font-size: 145px;
+}
+nav{
+    text-align: center;
+    color: blue;
+}
+
+span.yellow:hover{
+    background-color: yellow;
+    color: red;
+}
+
+p.text::first-line{
+color: red;
+}
+
+a:link {
+    background-color: white;
+    color: blue;
+}
+
+a:visited{
+    background-color: blue;
+    color: white;
+}
+
+h4{
+    counter-reset: num;
+}
+
+p.numero::before{
+    content: counter(num)". ";
+    counter-increment: num;
+}
+
+p.curs{
+    font-style: italic;
+}
+
+img.size{
+    width: 375px;
+    height: 375px;
+    float: right;
+    margin-top: 85px;
+}
